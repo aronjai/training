@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
+/*global styling*/
+.button {
+    background-color: #C20502;
+    border: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto auto;
+    padding: 20px 40px;
+  }
+
+  h1{
+    font-family: 'Roboto slab';
+    font-size: 49px;  
+    color:#292733;
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 105.5%;
+    }
+
+  h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 49px;
+    text-align: center;
+    color: white;
+    
+    }
+
+  h3{
+    color: #F1F3F4;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    text-align: center;
+ }
+
+ h4{
+    font-family: 'Roboto Slab', serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+p{
+    text-align: center;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/*global styling*/
+
+/*hero banner*/
+
+header{
+    background-color: #292733; 
+}
+.container-nav-list{
+    display: flex;
+    background-color: #292733;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.nav-list{
+    padding-bottom:20px ;
+}
+.nav-list-container{
+    display: inline-block;
+    width: 90%;
+    text-align: end;
+}
+
+.nav-icons{
+    padding-top: 15px;
+}
+.nav-menu{
+    display: flex;
+    background-color: #292733;
+    padding-top: 10PX;
+    position: relative;
+    width: 100%;
+    overflow: auto;
+    align-items: center;
+   
+}
+.nav-list__item{
+   padding: 10px 10px;
+    color: white;
+    font-family: 'poppins';
+    font-weight: 500;
+  
+   
+}
+.nav-list__copy{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.nav-list__icon{
+    display: flex;
+    padding: 10px 0px;
+    color: white;
+    padding-left: 20px;
+}
+li{
+    list-style: none;
+}
+
+
+.banner{
+    width: 1440px;
+    height: 741px;
+}
+
+.bdy-banner{
+    background-image: url("pictures/banner.png");
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: 100% 100%;
+    display: flex;
+}
+
+
+.bdy-banner__pro{
+    text-align: right;
+    width: 100%;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+   
+}
+
+.p--banner{
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #292733;
+    padding-top: 20px;
+}
+
+
+/*Section 2*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.icon-text-container{
+    padding-top: 20px;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+  }
+
+.icon-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#C20502 ;
+    padding: 50px;
+    height: 300px;
+}
+
+
+.icon-wrapper-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.icon-wrapper__card {
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+/* Decker Section*/
+
+
+.decking-wrapper {
+    width: 100%;
+    height: 501px;
+    display: flex;
+}
+
+.decking-wrapper__first{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("pictures/deckercol1.png");
+    background-size: cover;
+}
+
+.icon-decker{
+    width: 100%;
+}
+
+
+.decking-wrapper__second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("pictures/deckercol2.png");
+    width: 60%;
+    background-size: cover;
+}
+
+
+.decking-wrapper__first__col2__button{
+    text-align: center;
+    padding: 30px; 
+}
+
+/* Decker Section*/
+
+
+/*quality section*/
+.quality-section{
+    background-image: url("pictures/section3.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top:100px;
+    padding-bottom:100px;
+}
+.quality-section__wrapper{
+    max-width: 1200px;
+    margin:auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+
+.quality-section__wrapper-button{
+    text-align: center;
+    padding: 30px;
+}
+
+.button--learn{
+    background-color: white;
+    border: none;
+    color: #C20502;;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto auto;
+    padding: 20px 40px;
+}
+
+
+/*quality section*/
+
+
+
+.timber-wrapper {
+    width: 100%;
+    height: 501px;
+    display: flex;
+}
+
+.timber-wrapper__first{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-size: cover;
+}
+
+.timber-decker{
+    width: 650px;
+    height: auto;
+  
+}
+
+.timber-wrapper__first__col1__icon{
+    width: 60%;
+    padding-top: 200px;
+}
+.timber-wrapper-seccol{
+    width: 40%;
+}
+.timber-wrapper__second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#F1F3F4;
+    width: 40%;
+    background-size: cover;
+    
+}
+
+
+.timber-wrapper__first__col2__button{
+    text-align: center;
+    padding: 30px; 
+}
+
+.button--timber{
+    background-color: white;
+    border: none;
+    color: #C20502;;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto auto;
+}
+
+.timber-wrapper__first__seccol__button{
+    padding-top: 20px;
+}
+.h3--timber{
+    color: #F1F3F4;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    text-align: left;
+    padding-right: 200px;
+    
+}
+
+.h3--timbersec{
+    color: #292733;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.icon-timber{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.timber-wrapper__first__col2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+/*timber section*/
