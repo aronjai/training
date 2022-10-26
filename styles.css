@@ -406,15 +406,27 @@ color: #292733;
 
 .timber-products__wrapper{
     display: flex;
+    
 }
+
 
 .timber-products__wrapper__card{
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.timber-products__wrapper__card__pic{
-    padding: 10px;
+.timber-products__wrapper__card2{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+
+.timber-products__wrapper__card__pic{
 }
 .p--timber-products{
     width: 260px;
@@ -453,3 +465,405 @@ line-height: 30px;
 
 color: #C20502;
 }
+/*timber products section*/
+
+/*timber-dealers*/
+.timber-dealers{
+    display: flex;
+    max-width: 1200px;
+    margin:auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20vh;
+    width: 100%;
+    min-height: 590px;
+}
+.timber-dealers__col1{
+    width: 50%;
+    background-image: url("pictures/timberdeal.png");
+    background-size: cover;
+    height: auto;
+}
+
+.timber-dealers__col2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+    background-color: red;
+    min-height: 590px;
+}
+
+.h3--timber{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+    color: #FFFFFF;
+    width: 100%; 
+}
+
+.timber-dealer__col2-content{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: left;
+    padding-left: 90px;
+    padding-right: 20px;
+}
+
+.button--timbers{
+    display: inline-block;
+    background-color: white;
+    border: none;
+    color: #C20502;;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 20px 40px; 
+}
+
+.button-timbers-wrap{
+    padding-top: 30px;
+}
+
+/*timber-dealers*/
+
+/*Shop now section*/
+
+.timber-sale{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 590px;
+    margin-top: 10vh;
+}
+
+.timber-sale-wrap{
+    
+}
+.timber-sale__col1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-image: url("pictures/sales1.png");
+    width: 50%;
+    min-height: 590px;
+    background-size: cover;
+}
+
+.timber-sale__col2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-image: url("pictures/sales2.png");
+    width: 50%;
+    min-height: 590px;
+    background-size: cover;
+}
+
+
+
+.h3--sales{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+    color: #FFFFFF;
+    width: 100%; 
+}
+
+.timber-sale__col1-content{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 50px;
+  
+}
+
+.button--sale{
+    display: inline-block;
+    background-color: white;
+    border: none;
+    color: #C20502;;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 20px 40px; 
+}
+
+.button-sale-wrap{
+    padding-top: 30px;
+    text-align: left;
+}
+
+.h5--sale{
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+color: #FFFFFF;
+
+}
+
+/*Shop now section*/
+
+/* feature product*/
+.h2--timber-prod{
+    color: white;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;   
+}
+
+.prod-section{
+    background-image: url("pictures/prod.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top:100px;
+    padding-bottom:100px;
+}
+.prod-section__wrapper{
+    max-width: 1200px;
+    margin:auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+
+.prod-section__wrapper-button{
+    text-align: center;
+    padding: 30px;
+}
+
+.button--prod{
+    background-color: white;
+    border: none;
+    color: #C20502;;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto auto;
+    padding: 20px 40px;
+}
+
+.h5--qual{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* feature product*/
+
+/* pagination */
+
+.direction-sec{
+    display: flex;
+    width: 100%;
+    margin-top: 50px ;
+}
+
+.direction-sec-fwrap{
+    width: 33.33%;
+}
+
+.direction-sec-lwrap{
+    width: 33.33%;
+}
+
+.direction-sec-wrap{
+    width: 33.33%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    align-content: stretch;
+    justify-content: center;
+}
+.box1{
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+ }
+
+ .box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+ }
+
+ .box3{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #C20502;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+ }
+ .box4{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #C20502;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+ }
+ .box5{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #C20502;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+ }
+ .box6{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background-color:#C20502 ;
+ }
+ .box7{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #C20502;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+ }
+
+ .box8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+ }
+ .box9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 0px 10px 10px 0px;
+ }
+/* pagination */
+
+/*news section*/
+.news-section{
+    margin-top: 20vh;
+    width: 100%;
+    min-height:436px;
+    background-color: #C20502;
+}
+
+
+
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    justify-content: center;
+  }
+  
+  .icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+  }
+  
+  .input-field {
+    padding: 24px;
+    outline: none;
+    width: 80%;
+  }
+  
+  .input-field:focus {
+    border: 2px solid dodgerblue;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+  .news-section__content{
+    text-align: center;
+  }
+
+  .news-section-wrap{
+    padding-top: 150px;
+/*news section*/
